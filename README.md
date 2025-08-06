@@ -54,13 +54,13 @@ Predicted class: poor
 Gemma Response:
 
 Poof cocoa beans indicate poor drying or improper storage, leading to fungal contamination. This affects flavor and safety.
-Demo Video
 
-## Included separately as CLI walk-through
+## Demo Video
+Included separately as CLI walk-through
 Explains model pipeline, shows sample output, and demonstrates offline setup.
 
 ## Model Details
-YOLOv8: Fine-tuned on annotated cocoa bean images (dry, good, moldy, broken)
+YOLOv8: Fine-tuned on annotated cocoa bean images (poor, good)
 
 Gemma 3n (2B): Loaded via Hugging Face Transformers locally
 
