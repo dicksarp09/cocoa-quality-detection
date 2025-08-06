@@ -13,7 +13,7 @@ Built with Gemma 3n: Uses the powerful, privacy-preserving language model for on
 
 Command Line Interface (CLI) for fast predictions
 
-🌐 (Optional) Flask web demo for local interface (if functional)
+(Optional) Flask web demo for local interface (if functional)
 
 ## Quickstart (CLI Version)
 1. Install dependencies
@@ -33,7 +33,8 @@ pip install torch torchvision transformers ultralytics
 3. Run CLI
 
 python cli_app.py "demo_images/sample.jpg"
-🧠 How It Works
+
+## How It Works
 Image Classification (YOLOv8):
 
 Detects cocoa bean type (e.g., poor, good)
@@ -54,15 +55,16 @@ Gemma Response:
 
 Poof cocoa beans indicate poor drying or improper storage, leading to fungal contamination. This affects flavor and safety.
 Demo Video
-Included separately as CLI walk-through
+
+## Included separately as CLI walk-through
 Explains model pipeline, shows sample output, and demonstrates offline setup.
 
-Model Details
+## Model Details
 YOLOv8: Fine-tuned on annotated cocoa bean images (dry, good, moldy, broken)
 
 Gemma 3n (2B): Loaded via Hugging Face Transformers locally
 
-Impact & Use Case
+## Impact & Use Case
 This app empowers cocoa producers to:
 
 Visually assess bean quality
@@ -71,7 +73,7 @@ Understand implications with local AI explanation
 
 Operate without internet, ensuring functionality in remote farming areas
 
-Future Improvements
+## Future Improvements
 Add local language support (Twi, Ewe)
 
 Enable voice input and audio response
