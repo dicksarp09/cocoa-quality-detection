@@ -1,0 +1,7 @@
+names:
+- good
+- poor
+nc: 2
+path: C:\Users\Dickson\Cocoa Quality\data_yolo
+train: images/train
+val: images/val

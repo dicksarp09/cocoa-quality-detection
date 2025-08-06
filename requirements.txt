@@ -1,0 +1,9 @@
+flask
+werkzeug
+torch
+transformers
+sentencepiece
+Pillow
+torchaudio
+onnxruntime
+numpy
